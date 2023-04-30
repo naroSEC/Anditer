@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_root"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_margin="16dp"
+    android:background="@drawable/item_bg_round"
+    android:padding="13dp"
+    android:elevation="4dp">
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:background="@drawable/item_image_round"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+        <TextView
+            android:id="@+id/item_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/jamsil"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:transitionName="itemTransition" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/confirm_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="#00000000"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="bottom|left"
+                    android:src="@drawable/item_image_click">
+                </ImageButton>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+                <Switch
+                    android:id="@+id/switchView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/pil"
+                    android:text="Check "
+                    android:textColor="@color/lite_gray"
+                    android:thumb="@drawable/item_switch_thumb"
+                    android:track="@drawable/item_switch_track"
+                    android:layout_gravity="right|bottom"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+            </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+        app:key="enabled_pwd"
+        app:title="비밀번호 설정"
+        app:summary="비밀번호를 설정해주세요."
+        app:icon="@drawable/screen_lock_input"/>
+    <Preference
+        app:key="disabled_pwd"
+        app:title="비밀번호 해제"
+        app:summary="비밀번호 설정을 해제 할 수 있습니다."
+        app:icon="@drawable/screen_lock_clear"/>
+    <Preference
+        app:key="changed_pwd"
+        app:title="비밀번호 변경"
+        app:summary="비밀번호를 변경 할 수 있습니다."
+        app:icon="@drawable/screen_lock_change"/>
+    <Preference
+        app:key="locked_pwd"
+        app:title="잠금 화면 활성화"
+        app:summary="비밀번호 설정 후 잠금 화면 테스트가 가능합니다."
+        app:icon="@drawable/screen_lock_start"/>
+</PreferenceScreen>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!--solid android:color="#7E71FF" /-->
+
+    <!-- 메인 로고랑 컬러 테마를 맞추기 위해 그라이데이션 옵션 사용 -->
+    <gradient
+        android:startColor="#C234FF"
+        android:centerColor="#945EFF"
+        android:endColor="#6886FE"
+        android:angle="45" />
+
+    <stroke
+        android:width="0dp"
+        android:color="#CCCACA"/>
+    <!--android:dashWidth="10dp"
+    android:dashGap="4dp"/>-->
+
+    <corners
+        android:topLeftRadius="20dp"
+        android:topRightRadius="20dp"
+        android:bottomRightRadius="20dp"
+        android:bottomLeftRadius="20dp" />
+</shape>

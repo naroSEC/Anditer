@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+        app:key="password"
+        app:title="비밀번호"
+        app:summary="비밀번호 입력을 통해 잠금 화면 설정이 가능합니다."
+        app:fragment="com.playground.anditer.LockPinFragment"
+        app:icon="@drawable/screen_lock_password"/>
+    <Preference
+        app:key="pattern"
+        app:title="패턴"
+        app:summary="패턴 입력을 통해 잠금 화면 설정이 가능합니다."
+        app:icon="@drawable/screen_lock_pattern"/>
+    <Preference
+        app:key="fingerprint"
+        app:title="지문"
+        app:summary="지문 인증 방식을 통해 잠금 화면 설정이 가능합니다."
+        app:icon="@drawable/screen_lock_fingerprint"/>
+</PreferenceScreen>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".AppPassWordActivity">
+
+    <TextView
+        android:id="@+id/etInputInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:text="비밀번호를 입력하세요."
+        android:fontFamily="@font/jamsil"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_passcodes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/etPasscode1"
+            android:gravity="center"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:inputType="textPassword|number"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:singleLine="true">
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/etPasscode2"
+            android:gravity="center"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:inputType="textPassword|number"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:singleLine="true">
+        </EditText>
+
+        <EditText
+            android:id="@+id/etPasscode3"
+            android:gravity="center"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:inputType="textPassword|number"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:singleLine="true">
+        </EditText>
+
+        <EditText
+            android:id="@+id/etPasscode4"
+            android:gravity="center"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:inputType="textPassword|number"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:singleLine="true">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:id="@+id/tl_keys"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dp"
+            android:gravity="bottom"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+            <TableRow>
+
+                <android.widget.Button
+                    android:id="@+id/btn1"
+                    android:layout_width="120dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:background="@drawable/keypad_sheet_button" />
+
+                <android.widget.Button
+                    android:id="@+id/btn2"
+                    android:layout_width="120dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textSize="18sp"
+                    android:background="@drawable/keypad_sheet_button" />
+
+                <android.widget.Button
+                    android:id="@+id/btn3"
+                    android:layout_width="120dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textSize="18sp"
+                    android:background="@drawable/keypad_sheet_button" />
+            </TableRow>
+
+            <TableRow>
+
+                <android.widget.Button
+                    android:id="@+id/btn4"
+                    android:layout_width="120dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textSize="18sp"
+                    android:background="@drawable/keypad_sheet_button" />
+
+                <android.widget.Button
+                    android:id="@+id/btn5"
+                    android:layout_width="120dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textSize="18sp"
+                    android:background="@drawable/keypad_sheet_button" />
+
+                <android.widget.Button
+                    android:id="@+id/btn6"
+                    android:layout_width="120dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="6"
+                    android:textSize="18sp"
+                    android:background="@drawable/keypad_sheet_button" />
+            </TableRow>
+
+            <TableRow>
+
+                <android.widget.Button
+                    android:id="@+id/btn7"
+                    android:layout_width="120dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="7"
+                    android:textSize="18sp"
+                    android:background="@drawable/keypad_sheet_button" />
+
+                <android.widget.Button
+                    android:id="@+id/btn8"
+                    android:layout_width="120dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="8"
+                    android:textSize="18sp"
+                    android:background="@drawable/keypad_sheet_button" />
+
+                <android.widget.Button
+                    android:id="@+id/btn9"
+                    android:layout_width="120dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="9"
+                    android:textSize="18sp"
+                    android:background="@drawable/keypad_sheet_button" />
+            </TableRow>
+
+            <TableRow>
+
+                <android.widget.Button
+                    android:id="@+id/btnClear"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:text="CLEAR"
+                    android:background="@drawable/keypad_sheet_button" />
+
+                <android.widget.Button
+                    android:id="@+id/btn0"
+                    android:layout_width="120dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textSize="18sp"
+                    android:background="@drawable/keypad_sheet_button" />
+
+                <android.widget.Button
+                    android:id="@+id/btnErase"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:text="DEL"
+                    android:background="@drawable/keypad_sheet_button" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>
