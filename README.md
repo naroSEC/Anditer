@@ -59,8 +59,11 @@ Anditer를 통해 아래와 같은 다양한 탐지 방법을 학습하고 우�
 * AnditerRooting.apk는 루팅 탐지 시 사용되는 앱으로, 디바이스에서 루팅 탐지가 되지 않는다면 해당 앱 설치를 해주시면 됩니다.
 
 <p align="center">
-<img width="200" height="400" src="https://user-images.githubusercontent.com/89144246/229981965-60891400-80ac-482b-96c4-128861529d45.jpg">
-<img width="200" height="400" src="https://user-images.githubusercontent.com/89144246/229982016-2d521fb7-6c71-48eb-b4e5-6b8dced41e5c.jpg">
+<img width="200" height="400" src="https://user-images.githubusercontent.com/89144246/235369374-439409b1-78bd-4032-ae09-b720824a350d.jpg">
+<img width="200" height="400" src="https://user-images.githubusercontent.com/89144246/235369376-0f3a677a-e6c4-4d4f-9617-db57de6cc220.jpg">
+<img width="200" height="400" src="https://user-images.githubusercontent.com/89144246/235369377-233937c7-fb34-4ab5-aef4-d52e8837be35.jpg">
+<img width="200" height="400" src="https://user-images.githubusercontent.com/89144246/235369378-4c849472-f8c0-4580-be3f-89878d2a49d0.jpg">
+<img width="200" height="400" src="https://user-images.githubusercontent.com/89144246/235369380-d30669ff-8fc6-432d-9a08-5b8cdecca65c.jpg">
 </p>
 
 # Issue
