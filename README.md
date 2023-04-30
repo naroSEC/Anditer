@@ -62,7 +62,6 @@ Anditer를 통해 아래와 같은 다양한 탐지 방법을 학습하고 우�
 <img width="200" height="400" src="https://user-images.githubusercontent.com/89144246/235369374-439409b1-78bd-4032-ae09-b720824a350d.jpg">
 <img width="200" height="400" src="https://user-images.githubusercontent.com/89144246/235369376-0f3a677a-e6c4-4d4f-9617-db57de6cc220.jpg">
 <img width="200" height="400" src="https://user-images.githubusercontent.com/89144246/235369377-233937c7-fb34-4ab5-aef4-d52e8837be35.jpg">
-<img width="200" height="400" src="https://user-images.githubusercontent.com/89144246/235369378-4c849472-f8c0-4580-be3f-89878d2a49d0.jpg">
 <img width="200" height="400" src="https://user-images.githubusercontent.com/89144246/235369380-d30669ff-8fc6-432d-9a08-5b8cdecca65c.jpg">
 </p>
 
