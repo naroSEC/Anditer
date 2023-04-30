@@ -57,9 +57,10 @@ Anditer를 통해 아래와 같은 다양한 탐지 방법을 학습하고 우�
 * Android OS 7.0 이상 버전만 사용 가능합니다.
 * 난독화 적용(Encrypt) 버전과 난독화 미적용(NoEncrypt) 두 가지 버전을 제공합니다.
 * AnditerRooting.apk는 루팅 탐지 시 사용되는 앱으로, 디바이스에서 루팅 탐지가 되지 않는다면 해당 앱 설치를 해주시면 됩니다.
+<p align="center">
 <img width="200" height="400" src="https://user-images.githubusercontent.com/89144246/229981965-60891400-80ac-482b-96c4-128861529d45.jpg">
 <img width="200" height="400" src="https://user-images.githubusercontent.com/89144246/229982016-2d521fb7-6c71-48eb-b4e5-6b8dced41e5c.jpg">
-
+<
 # Issue
 * 1.0.ver
    * 지문 항목은 API level 30 이상에서만 사용 가능합니다. 추후 패치를 통해 아래 버전도 지원 될 예정입니다.
