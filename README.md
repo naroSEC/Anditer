@@ -58,8 +58,6 @@ Anditer를 통해 아래와 같은 다양한 탐지 방법을 학습하고 우�
 # Use
 * 모든 항목들에서 탐지 되고자 할 경우 몇몇 설정들은 사용자가 직접 디바이스에서 설정해줘야 합니다.
 * Android OS 7.0 이상 버전만 사용 가능합니다. (되도록이면 9.0 버전 이상 사용을 권고 드립니다.)
-* 난독화 적용(Encryption) 버전과 난독화 미적용(NoEncryption) 두 가지 버전을 제공합니다.
-* AnditerRooting.apk는 루팅 탐지 시 사용되는 앱으로, 디바이스에서 루팅 탐지가 되지 않는다면 해당 앱 설치를 해주시면 됩니다.
 
 <p align="center">
 <img width="200" height="400" src="https://user-images.githubusercontent.com/89144246/235369374-439409b1-78bd-4032-ae09-b720824a350d.jpg">
@@ -67,6 +65,12 @@ Anditer를 통해 아래와 같은 다양한 탐지 방법을 학습하고 우�
 <img width="200" height="400" src="https://user-images.githubusercontent.com/89144246/235369377-233937c7-fb34-4ab5-aef4-d52e8837be35.jpg">
 <img width="200" height="400" src="https://user-images.githubusercontent.com/89144246/235369380-d30669ff-8fc6-432d-9a08-5b8cdecca65c.jpg">
 </p>
+
+# Info
+* 난독화 적용(Encryption) 버전과 난독화 미적용(NoEncryption) 두 가지 버전을 제공합니다.
+  * 난독화 버전의 경우 Proguard 난독화 모듈이 적용되어 있습니다.
+* AnditerRooting.apk는 루팅 탐지 시 사용되는 앱으로, 디바이스에서 루팅 탐지가 되지 않는다면 해당 앱 설치를 해주시면 됩니다.
+* 상업적 목적 이용 시 꼭 출처를 남겨주시길 바랍니다.
 
 # Issue
 * 1.0.ver
