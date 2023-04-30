@@ -174,7 +174,7 @@
             Frida는 Window, Linux, mac,Android, iOS 등의 운영체제의 네이티브 앱을 후킹하는데 사용되는 파이썬 라이브러리 도구입니다.
             주로 앱의 함수를 추적하거나, 코드 변조를 위해 사용됩니다.
             \&quot;Bypass File &amp; Path\&quot; 항목에서는 Frida 바이너리 파일과 실행 시 생성되는 디렉터리를 검사합니다.\n
-            \n[ Frida 실행 시 생성되는 디렉터리 ]\n
+            \n[ Frida 실행 시 생성되는 기본 디렉터리 ]\n
             - /data/local/tmp/re.frida.server\n
         </item>
         <item>
