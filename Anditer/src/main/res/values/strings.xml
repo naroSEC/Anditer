@@ -91,7 +91,7 @@
             프로세스의 id 값을 표시하게 됩니다. 반대로, 디버깅 되고 있지 않다면 TracerPid 상태 필드 값은 0으로 고정되어 있습니다.
             \&quot;Bypass TracerPID\&quot; 항목에서는 TracerPid 상태 필드 값이 0으로 설정되어 있는지 검사하게 됩니다.\n
             \n[ TracerPid 확인하는 방법 ]\n
-            - cat /proc/self/status\n
+            - cat /proc/[pid]/status\n
         </item>
         <item>
             [ 개요 ]\n
@@ -191,7 +191,7 @@
             주로 앱의 함수를 추적하거나, 코드 변조를 위해 사용됩니다.
             \&quot;Bypass Module\&quot; 항목에서는 앱 프로세스 정보를 확인해 frida가 동작 중인지 검사하게 됩니다.\n
             \n[ 앱 프로세스 정보 확인하는 방법 ]\n
-            - cat /proc/self/maps\n
+            - cat /proc/[pid]/maps\n
         </item>
         <item>
             [ 개요 ]\n
