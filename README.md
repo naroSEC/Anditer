@@ -56,8 +56,13 @@ Anditer를 통해 아래와 같은 다양한 탐지 방법을 학습하고 우�
   * 패턴 : 잠금 패턴 우회 방법 학습
   * 지문 : 생체인증 방식의 잠금 우회 방법 학습
 
-* 네이티브 탐지
-  * 추후 예정
+* 네이티브
+  * Bypass Native(Rooting-Files) : C/C++ 라이브러리 호출을 이용한 루팅 관련 패키지 및 바이너리 파일 탐지
+  * Bypass Native(Rooting-Excution) : C/C++ 라이브러리 호출을 이용한 Which 명령어를 이용한 SU 바이너리 탐지
+  * Bypass Native(Debug-Debuggable) : C/C++ 라이브러리 호출을 이용한 ro.debuggable 이상 값 탐지
+  * Bypass Native(Debug-TracerPID) : C/C++ 라이브러리 호출을 이용한 TracerPid 이상 값 탐지
+  * Bypass Native(Frida-Files) : C/C++ 라이브러리 호출을 이용한 Frida 관련 파일 탐지
+  * Bypass Native(Frida-Port) : C/C++ 라이브러리 호출을 이용한 Frida 리스닝 포트 탐지
 
 # Use
 * 모든 항목들에서 탐지 되고자 할 경우 몇몇 설정들은 사용자가 직접 디바이스에서 설정해줘야 합니다.
@@ -79,10 +84,14 @@ Anditer를 통해 아래와 같은 다양한 탐지 방법을 학습하고 우�
 # Issue
 * 1.0.ver
    * 잠금 화면 항목의 지문 및 패턴은 추후 패치를 통해 지원 될 예정입니다.
+* 1.1.ver
+   * 난독화 적용 버전에서 잠금 화면 실행 시 팅기는 현상이 있어 확인 중에 있습니다. 수정 전까지 난독화 미적용 버전으로 테스트 하시면 됩니다.
 
 # Patch
 * Release
-  * 1.0
+  * 1.0 old
+  * 1.1 release
 
 * Later Version Patch
-  * 네이티브 코드 탐지 추가 예정
+  * 네이티브 코드 탐지 추가
+  * 보안 솔루션에서 사용되는 리소스 다운 방식의 탐지 기법 추가 
