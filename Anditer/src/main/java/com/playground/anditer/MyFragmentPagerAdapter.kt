@@ -10,7 +10,7 @@ class MyFragmentPagerAdapter(activity: FragmentActivity): FragmentStateAdapter(a
         fragments= listOf(
             RootingFragment(), DebuggerFragment(), EmulatorFragment(),
             FridaFragment(), PinningFragment(), IntegrityFragment(),
-            DynamicFragment(), ScreenLockFragment(),
+            DynamicFragment(), ScreenLockFragment(),NativeFragment(),
         )
     }
     override fun getItemCount(): Int = fragments.size

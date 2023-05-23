@@ -2,7 +2,6 @@ package com.playground.anditer
 
 import android.content.Context
 import android.graphics.Color
-import android.util.Log
 import android.util.SparseBooleanArray
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -21,6 +20,7 @@ class MyAdapter(val datas: MutableList<String>, var mainActivity: Context, var d
     val PinningDetector = PinningDetector(mainActivity)
     val IntegrityDetector = IntegrityDetector(mainActivity)
     val DynamicDetector = DynamicDetector(mainActivity)
+    val NativeDetector = NativeDetector(mainActivity)
 
     override fun getItemCount(): Int {
         return datas.size
@@ -45,6 +45,7 @@ class MyAdapter(val datas: MutableList<String>, var mainActivity: Context, var d
             "Pinning" -> itemImage.setImageResource(R.drawable.image_pinning)
             "Integrity" -> itemImage.setImageResource(R.drawable.image_integrity)
             "Dynamic" -> itemImage.setImageResource(R.drawable.image_dynamic)
+            "Native" -> itemImage.setImageResource(R.drawable.image_native)
         }
     }
 
@@ -122,6 +123,16 @@ class MyAdapter(val datas: MutableList<String>, var mainActivity: Context, var d
                         checkDetector = when(adapterPosition) {
                             0 -> DynamicDetector.isCheckDynamic(false)
                             1 -> DynamicDetector.isCheckDynamic(true)
+                            else -> false
+                        }
+                    } else if(distinction == "Native") {
+                        checkDetector = when(adapterPosition) {
+                            0 -> NativeDetector.isCheckRooted()
+                            1 -> NativeDetector.isCheckExecution()
+                            2 -> NativeDetector.isCheckDebuggerable()
+                            3 -> NativeDetector.isCheckDebuggerTracerPID()
+                            4 -> NativeDetector.isCheckFridaFiles()
+                            5 -> NativeDetector.isCheckFridaPorts()
                             else -> false
                         }
                     }

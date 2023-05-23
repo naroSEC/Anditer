@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">ANDITER</string>
 
-    <string name="CRC_Check_Code">3698278759</string>
+    <string name="CRC_Check_Code">1359529422</string>
 
     <string name="hello_blank_fragment">test</string>
 
@@ -13,6 +13,7 @@
     <string name="bottom_sheet_integrity_title">Integrity</string>
     <string name="bottom_sheet_fingerprint_title">Fingerprint</string>
     <string name="bottom_sheet_dynamic_title">Fingerprint</string>
+    <string name="bottom_sheet_native_title">Native</string>
 
     <string-array name="bottom_sheet_rooting_content">
         <item>
@@ -277,6 +278,57 @@
             이때, 추가 리소스 다운로드 기능을 통해 서버로부터 Dex 파일을 다운로드 받거나, 네이티브 코드를 통해 Dex 파일을
             생성하는 방법도 사용됩니다.
             \&quot;Bypass Hide Code\&quot; 항목은 동적으로 Dex 파일을 읽어들여 함수를 호출하고 결과를 반영 후 Dex 파일을 삭제하게 됩니다. \n
+        </item>
+    </string-array>
+
+    <string-array name="bottom_sheet_native_content">
+        <item>
+            [ 개요 ]\n
+            Java 코드로 작성된 탐지 기법은 코드 변조 및 Frida 도구를 통해 쉽게 우회 될 위험성이 있습니다.
+            이를 위한 대응 방안으로 네이티브 C/C++ 코드로 작성하는 기법이 있으며, 이는 공격자의 분석 소요 시간을 늘리며
+            우회를 쉽게 하지 못하도록 합니다.\n\n
+            \&quot;Bypass Natvie(Rooting-Files)\&quot; 항목은 기존 Java 코드에서 루팅 관련 파일 탐지 기법을 네이티브 코드로 작성해
+            Java 단에서 탐지하는게 아닌 별도의 C/C++ 라이브러리 파일을 호출해 탐지하게 됩니다.\n
+        </item>
+        <item>
+            [ 개요 ]\n
+            Java 코드로 작성된 탐지 기법은 코드 변조 및 Frida 도구를 통해 쉽게 우회 될 위험성이 있습니다.
+            이를 위한 대응 방안으로 네이티브 C/C++ 코드로 작성하는 기법이 있으며, 이는 공격자의 분석 소요 시간을 늘리며
+            우회를 쉽게 하지 못하도록 합니다.\n\n
+            \&quot;Bypass Natvie(Rooting-Excution)\&quot; 항목은 기존 Java 코드에서 witch 명령어를 이용한 SU 실행 여부 탐지 기법을 네이티브 코드로 작성해
+            Java 단에서 탐지하는게 아닌 별도의 C/C++ 라이브러리 파일을 호출해 탐지하게 됩니다.\n
+        </item>
+        <item>
+            [ 개요 ]\n
+            Java 코드로 작성된 탐지 기법은 코드 변조 및 Frida 도구를 통해 쉽게 우회 될 위험성이 있습니다.
+            이를 위한 대응 방안으로 네이티브 C/C++ 코드로 작성하는 기법이 있으며, 이는 공격자의 분석 소요 시간을 늘리며
+            우회를 쉽게 하지 못하도록 합니다.\n\n
+            \&quot;Bypass Natvie(Debug-Debuggable)\&quot; 항목은 기존 Java 코드에서 ro.debuggable 이상 값 여부 탐지 기법을 네이티브 코드로 작성해
+            Java 단에서 탐지하는게 아닌 별도의 C/C++ 라이브러리 파일을 호출해 탐지하게 됩니다.\n
+        </item>
+        <item>
+            [ 개요 ]\n
+            Java 코드로 작성된 탐지 기법은 코드 변조 및 Frida 도구를 통해 쉽게 우회 될 위험성이 있습니다.
+            이를 위한 대응 방안으로 네이티브 C/C++ 코드로 작성하는 기법이 있으며, 이는 공격자의 분석 소요 시간을 늘리며
+            우회를 쉽게 하지 못하도록 합니다.\n\n
+            \&quot;Bypass Natvie(Debug-TracerPID)\&quot; 항목은 기존 Java 코드에서 TracerPid 이상 값 여부 기법을 네이티브 코드로 작성해
+            Java 단에서 탐지하는게 아닌 별도의 C/C++ 라이브러리 파일을 호출해 탐지하게 됩니다.\n
+        </item>
+        <item>
+            [ 개요 ]\n
+            Java 코드로 작성된 탐지 기법은 코드 변조 및 Frida 도구를 통해 쉽게 우회 될 위험성이 있습니다.
+            이를 위한 대응 방안으로 네이티브 C/C++ 코드로 작성하는 기법이 있으며, 이는 공격자의 분석 소요 시간을 늘리며
+            우회를 쉽게 하지 못하도록 합니다.\n\n
+            \&quot;Bypass Natvie(Frida-Files)\&quot; 항목은 기존 Java 코드에서 Frida 관련 파일 탐지 기법을 네이티브 코드로 작성해
+            Java 단에서 탐지하는게 아닌 별도의 C/C++ 라이브러리 파일을 호출해 탐지하게 됩니다.\n
+        </item>
+        <item>
+            [ 개요 ]\n
+            Java 코드로 작성된 탐지 기법은 코드 변조 및 Frida 도구를 통해 쉽게 우회 될 위험성이 있습니다.
+            이를 위한 대응 방안으로 네이티브 C/C++ 코드로 작성하는 기법이 있으며, 이는 공격자의 분석 소요 시간을 늘리며
+            우회를 쉽게 하지 못하도록 합니다.\n\n
+            \&quot;Bypass Natvie(Frida-Port)\&quot; 항목은 기존 Java 코드에서 Frida 통신 포트 리스닝 여부 탐지 기법을 네이티브 코드로 작성해
+            Java 단에서 탐지하는게 아닌 별도의 C/C++ 라이브러리 파일을 호출해 탐지하게 됩니다.\n
         </item>
     </string-array>
 </resources>

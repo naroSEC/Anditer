@@ -102,6 +102,17 @@ class BottomSheetFagment(context: Context, _distinction: String, _adapterPositio
                     1 -> binding.content.text = resources.getStringArray(R.array.bottom_sheet_dynamic_content)[adapterPosition]
                 }
             }
+            "Native" -> {
+                binding.title.text = getString(R.string.bottom_sheet_native_title)
+                when(adapterPosition) {
+                    0 -> binding.content.text = resources.getStringArray(R.array.bottom_sheet_native_content)[adapterPosition]
+                    1 -> binding.content.text = resources.getStringArray(R.array.bottom_sheet_native_content)[adapterPosition]
+                    2 -> binding.content.text = resources.getStringArray(R.array.bottom_sheet_native_content)[adapterPosition]
+                    3 -> binding.content.text = resources.getStringArray(R.array.bottom_sheet_native_content)[adapterPosition]
+                    4 -> binding.content.text = resources.getStringArray(R.array.bottom_sheet_native_content)[adapterPosition]
+                    5 -> binding.content.text = resources.getStringArray(R.array.bottom_sheet_native_content)[adapterPosition]
+                }
+            }
 
         }
 
