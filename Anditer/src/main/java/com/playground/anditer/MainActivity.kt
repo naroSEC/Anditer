@@ -122,6 +122,7 @@ class MainActivity : AppCompatActivity() {
                 5 -> tab.text = "무결성"
                 6 -> tab.text = "동적 로딩"
                 7 -> tab.text = "잠금화면"
+                8 -> tab.text = "네이티브"
             }
         }.attach()
 
