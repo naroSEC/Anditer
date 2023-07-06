@@ -20,15 +20,13 @@ class DebuggerDetector(context: Context): AppCompatActivity() {
         isFile = File("/proc/self/status")
         if (isFile.exists()) {
             try {
-                val bufferedReader = BufferedReader(FileReader(isFile))
-                val bufferString = bufferedReader.readLines()
-                bufferedReader.close()
-
-                bufferString.forEach {
-                    if (it.contains("TracerPid"))
+                val statusLines = isFile.readLines()
+                statusLines.forEach {
+                    if (it.contains("TracerPid")) {
                         return it.split(":")[1].trim().toInt() != 0
+                    }
 
-                    if (it.contains("State")) {
+                    if (it.contains("state")) {
                         val pattern = Regex("^t.+")
                         val stateProp = it.split(":")[1].trim()
 
