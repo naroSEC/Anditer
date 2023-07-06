@@ -9,6 +9,9 @@
 
 * 디버그, 에뮬레티어 탐지 분석 및 우회 과정 포스팅
   * https://www.igloo.co.kr/security-information/anditer%eb%a5%bc-%ed%99%9c%ec%9a%a9%ed%95%9c-%ec%95%88%eb%93%9c%eb%a1%9c%ec%9d%b4%eb%93%9c-%ec%9c%84%ed%98%91-%ed%83%90%ec%a7%80-%eb%b0%8f-%ec%9a%b0%ed%9a%8c-%eb%b0%a9%ec%95%88-part-2-%eb%94%94/
+ 
+* 프리다, 피닝 탐지 분석 및 우회 과정 포스팅
+  * https://www.igloo.co.kr/security-information/anditer%eb%a5%bc-%ed%99%9c%ec%9a%a9%ed%95%9c-%ec%95%88%eb%93%9c%eb%a1%9c%ec%9d%b4%eb%93%9c-%ec%9c%84%ed%98%91-%ed%83%90%ec%a7%80-%eb%b0%8f-%ec%9a%b0%ed%9a%8c-%eb%b0%a9%ec%95%88-part-3-%ed%94%84/
 
 # Learning Courses
 Anditer를 통해 아래와 같은 다양한 탐지 방법을 학습하고 우회 방법을 익힐 수 있습니다.
