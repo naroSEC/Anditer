@@ -105,7 +105,6 @@ class IntegrityDetector(context: Context): AppCompatActivity() {
         val entry = ZipFile(mContext.packageCodePath).getEntry("classes.dex")
         val classesCrc = entry.crc.toString()
         val compareCrc = mContext.getString(R.string.CRC_Check_Code)
-        Log.d("CRC Check", "${classesCrc}")
 
         if (classesCrc != compareCrc)
             return true
