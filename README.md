@@ -1,12 +1,13 @@
 # Anditer
-<div align="center">
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=naroSEC&fontSize=90)
+<div align="center">
   <p align="center">
     <img width="30%" src="https://user-images.githubusercontent.com/89144246/229952059-ad8e15c0-8fc4-4efb-89c5-1fb55bd54e06.png">
   </p>
   
   ####  :clipboard: Anditer는 실제 앱에서 사용되는 보안 코드 탐지(루팅, 프리다, 디버깅 등) 원리를 배울 수 있으며, 또 그것을 우회하는 방법도 익힐 수 있는 모바일 모의침투 테스팅 학습 도구입니다.
-  
+
+<img src="https://img.shields.io/badge/JAVA-007396?style=for-the-badge&logo=Java&logoColor=white">
 <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=Kotlin&logoColor=white">
 <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=Android&logoColor=white">
 <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=C%2b%2b&logoColor=white">
